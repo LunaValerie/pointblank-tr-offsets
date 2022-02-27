@@ -1,0 +1,23 @@
+Luna UI
+ m_iFloatY > "PointBlank.exe"+00F4CD40 > 19C > 58 > 14 > 124  // Karakter Y
+ m_iFloatX > "PointBlank.exe"+00F4CD40 > 19C > 58 > 14 > 11C  // Karakter X
+ m_iFloatZ > "PointBlank.exe"+00F4CD40 > 19C > 58 > 14 > 12C  // Karakter Z
+ m_iMouseY > "PointBlank.exe"+00F4CD40 > 1AC > 84  // Mouse Y
+ m_iMouseX > "PointBlank.exe"+00F4CD40 > 1AC > 80  // Mouse X
+ m_iRecoil %100 > "PointBlank.exe"+00F4CD40 > 1AC > 18  // Recoil %100
+ bot_iFloatY > "PointBlank.exe"+00F3FC08 > 0 > 8 > 4 > 4 > 11C  // EzikDog > Y
+ bot_iFloatX > "PointBlank.exe"+00F4CD40 > 30 > 19C > 58 > 14 > 11C  // EzikDog > X
+ m_iGodMode > "PointBlank.exe"+00F43E60 > 54  // Karakter GodMode
+ dwEntityList > PointBlank.exe+F43E60  // Entity
+ bot_iGodMode > "PointBlank.exe"+00F43E60 > D8  // EzikDog > GodMode
+ m_iAmmo > "PointBlank.exe"+00F4CD40 > 198 > 1C > 4C8 > 50 > 160  // InfAmmo
+ WallHack > PointBlank.exe+41841A [Byte (1)]  // WallHack
+ m_iRecoil %50 > "PointBlank.exe"+00F4CD40 > 38 > 15C  // Recoil %50
+ m_iWeaponSpeed > "PointBlank.exe"+00F4CD40 > 160  // Weapon Change Speed
+ Health Esp > PointBlank.exe+4D7940 [Byte(1)] 
+ All Bot > PointBlank.exe+4FA778 - F3 0F11 41 38 - movss [ecx+38],xmm0  // God Mode All Bot + 8
+ BattleObjContext::getGameInfo_DropedWeapon > ( Not Yukarı Çının ) mov ecx,[PointBlank.+F38730] / EntityList 
+ CharaViewMgr::getView // Hızlı Silah // Value 5 fld dword ptr [ebp-04] 
+ text_Exp // hızlı koşma 
+ %d/%d // hızlı realod // fld dword ptr [ebp-04] / adres 4 
+Teşekürler
